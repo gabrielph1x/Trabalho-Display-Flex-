@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+.deus {
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 1.0);
+    box-sizing: border-box;
+    height: 40px;
+    width: 100%;
+    
+}
+.liga {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin-left: 60%;
+}
+.satã {
+    top: 0;
+    position: sticky;
+    height: 70px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 80%);   
+    padding: 15px 2em;
+}
+.UL1 {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 18%;
+}
+.ul2 {
+    color: white;
+    margin: 6% 19%;
+    
+}
+.colegio {
+    
+    font-weight: 900;
+    font-size: 2.4em;
+}
+.p {
+    padding: 20px 0px;
+    font-size: 18px;
+    line-height: 26px;
+}
+li{
+    display: flex;
+    font-size: 0.875em;
+    font-weight: bold;
+    list-style: none;
+    justify-content: center;
+    transition: 0.2s;
+    
+}
+
+li:hover{
+    color: #40aa0b;
+    cursor: pointer;
+    
+}
+li b {
+    border-radius: 40px;
+    background-color: rgba(80, 80, 80, 50%);
+    width: 16px;
+    margin-left: 4px;
+    transition: 0.2s;
+
+}
+li b:hover {
+    background-color: #40aa0b;
+}
+.setaBaixo{
+    height: 8px;
+    width: 16px;
+    
+
+}
+.img1{
+    height: auto;
+    width: 20%;
+      
+}
+.cadeado {
+
+    padding-right: 20px;
+}
+
+#negao{
+position: absolute;
+top: 40px;
+z-index: -1;
+clip: rect(0px,2000px,520px,0px);
+
+}
+.conheca {
+    display: block;
+    width: 28%;
+    margin-top: 1.2em;
+    padding: 1em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: .875em;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 8px;
+    background: #40aa0b;
+    cursor: pointer;
+}
+.escolha {
+    width: 41%;
+    margin: 11.5em auto;    
+}
+.texto1 {
+    padding: 1em 0.5em 0;
+    font-size: 2.6em;
+    font-weight: 900;
+    text-align: center;
+}
+.paragrafo1 {
+    width: 100%;
+    max-width: 700px;
+    margin: 10px 0 1.5em;
+    padding: 0 1em;
+    font-size: 18px;
+    line-height: 26px;
+    color: #424242;
+    text-align: center;
+}
+.pog {
+    cursor:pointer;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: -140px;
+}
+.tamanho-img {
+    border-radius: 0.75em;  
+    width: 284px;
+    height: 175px;
+   
+}
+
+.corpo{
+    margin: 10px;
+    box-shadow: 0px 2px 8px rgb(0 0 0 / 10%);
+    border-radius: 0.75em;
+    
+}
+.corpo p {
+    position: absolute;
+    padding: 0px 20px;
+    font-size: 25px;
+    font-weight: 900;
+    color: white;
+    bottom: -20px;
+}
+.tamanha1 {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+}
+.seta{
+    position: relative;
+    right: 0;
+    display: block;
+    width: 12px;
+    height: 15px;
+    justify-self: end;
+    align-self: normal;
+    margin-top: 0.4em;
+    background: url(arrow-right.svg) no-repeat center right/90%;
+}
+.setapo {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+.setapo h4 {
+    margin: 0px 0px;
+    transition: 0.2s;
+}
+.setapo:hover {
+
+    color: #40aa0b;
+}
+.paragrafo2 {
+    max-width: 800px;
+    margin: 50px 0 1.5em;
+    font-size: 18px;
+}
+.escolha1 {
+    
+    width: 41%;
+    margin: 9.5em auto;
+}
+
+.corpo2 {
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+.sim {
+    cursor:pointer;
+    margin: 10px;
+    box-shadow: 0px 2px 8px rgb(0 0 0 / 10%);
+    border-radius: 0.75em;
+}
+.corpo2 img {
+    border-radius: 0.35em;
+}
+.pog2 h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #424242;
+}
+span {
+    padding: 24px;
+    font-style: normal;
+}
+.sim p {
+    padding-bottom: 20px;
+    font-style: normal;
+    text-decoration: none;
+    color: #424242;
+    
+    
+}
+.padding {
+    padding-left: 20px;
+}
+
+.sim img {
+    display: inline-block;
+}
+.pog2 {
+    margin-top: -90px;
+}
+.tel1 {
+    margin-top: 2em;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.tel2 {
+    cursor: pointer;
+}
+.a1 {
+    padding-right: 60px;
+    width: 3em;
+    height: 3em;
+    align-self: flex-end;
+}
+.a {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    color: #40aa0b;
+}
+.tel3 {   
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.tel2 h4 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #2e2e2e;
+}
+.tel3 img {
+    
+    width: 3em;
+    height: 3em;
+    text-indent: -9999px;
+    border-radius: 50%;
+    background: url(/assets/img/icons/c-all.svg) no-repeat center center/cover;
+    align-self: flex-end;
+}
+.Novidades h2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 1em 0.5em 0;
+    font-size: 2.6em;
+    font-weight: 900;
+    text-align: center;
+
+}
+.Novidades a {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: .875em;
+    font-weight: 700;
+    color: #424242;
+
+    
+}
+.Novidades a img {
+    display: flex;
+    width: 10px;
+}
+.caraca {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.caraca img {
+    width: 300px;
+    border-radius: 0.5em;
+    
+}
+.reidelas {
+    margin-left: 20px;
+}
